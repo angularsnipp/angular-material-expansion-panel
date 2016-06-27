@@ -3,7 +3,7 @@ exports.paths = {
   app: 'app/',
   dest: 'public/',
   build: 'dest/',
-  scripts: ['src/expansionPanel.js', 'src/*.js', 'src/**/*.js', '!src/*.spec.js', '!src/**/*.spec.js'],
+  scripts: ['src/expansionPanel.js', 'src/*.js', 'src/**/*.js', '!src/*spec.js', '!src/**/*spec.js'],
   appScripts: ['app/app.js', 'app/*.js', 'app/**/*.js'],
   css: ['src/*.scss', 'src/*.css'],
   appCss: ['app/style.css', 'app/**/*.css'],

@@ -15,7 +15,7 @@ angular
  * `mdExpansionPanelHeader` is nested inside of `mdExpansionPanelExpanded` and contains content you want in place of the collapsed content
  * this is optional
  *
- * @param {=} md-no-sticky - add this aatribute to disable sticky
+ * @param {boolean=} md-no-sticky - add this aatribute to disable sticky
  **/
 expansionPanelHeaderDirective.$inject = [];
 function expansionPanelHeaderDirective() {
